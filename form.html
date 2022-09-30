@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form101</title>
+</head>
+<style>
+
+</style>
+<body>
+    <form action="">
+        <form action="">
+            Username : <input type="text" name="username" required="required">
+            <br>
+            Password : <input type="password" name="password" required="required" maxlength="16" minlength="8">
+            <br>
+            Jurusan : 
+            <br>
+            <input type="checkbox" name="jurusan" value="RPL"> Rekayasa Perangkat Lunak
+            <br>
+            <input type="checkbox" name="jurusan" value="TKJ"> Teknik Komputer Jaringan
+            <br>
+            <input type="checkbox" name="jurusan" value="OTKP"> Otomisasi Dan Tata Kelola Perkantoran
+            <br>        
+        </form>
+        <p>Kelas : </p>
+        <form action="">
+            <select name="kelas" id="">
+                <option value="choose">
+                    <option value="X">X</option>
+                    <option value="XI">XI</option>
+                </option>
+            </select>
+        </form>
+        <p>Tanggal Lahir : </p>
+        <form action="">
+            <input type="date" name="tanggal">
+        </form>
+        <p>Jenis Kelamin</p>
+        <form action="">
+            <input type="radio" name="jk" value="P"> Perempuan
+            <br>
+            <input type="radio" name="jk" value="L"> Laki-Laki
+        </form>
+    
+        <p>Alamat : </p>
+        <textarea name="alamat" id="" cols="30" rows="10">
+            
+        </textarea>
+        <br>
+        <input type="submit" name="submitBtn">
+    </form>
+</body>
+</html>

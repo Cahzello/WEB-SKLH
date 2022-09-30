@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<style>
+    .header {
+        text-align: center;
+    }
+    
+</style>
+<body>
+    <div class="header">
+        <h1>Formulir Pendaftaran</h1>
+        <h1>Siswa baru</h1>
+        <h1>Tahun Ajaran 2022/2023</h1>    
+    </div>
+    <div class="form">
+        <form action="" >
+            Nama Calon Siswa : <input type="text" name="nama" required>
+            <br>
+            Jenis Kelamin :  
+            <input type="radio" name="jk" value="p" required> Laki-Laki
+            <input type="radio" name="jk" value="l" required> Perempuan
+            <br>
+            Tanggal Lahir : <input type="date" name="tglLahir" required >
+            <br>
+            Agama : <select name="agama" id="787">
+                <option value="choose">
+                    <option value="1" >Islam</option>
+                    <option value="2" >Hindu</option>
+                    <option value="3" >Kristen</option>
+                    <option value="4" >Buddha</option>
+                    <option value="5" >Konghucu</option>
+                    <option value="6" >Kristen Katolik</option>
+                </option>
+            </select>
+            <br>
+            No Telepon : <input type="number" name="tlp" required>
+            <br>
+            Jurusan Yang Di Pilih : <select name="Jurusan" id="" required>
+                <option value="choose">
+                    <option value="rpl">RPL</option>
+                    <option value="tkj">TKJ</option>
+                    <option value="otkp">OTKP</option>
+                </option>
+            </select>
+            <br>
+            Asal Sekolah : <input type="text" name="asl" required>
+            <br>
+            <p>Alamat : </p>
+            <textarea name="" id="" cols="30" rows="10" >
+
+            </textarea>
+            <br>
+            Apakah Anda Seorang ABK? : 
+            <input type="radio" name="abk" required> Iya
+            <input type="radio" name="abk" required> Tidak
+            <br>
+            Email : <input type="email" required>
+            <br>
+            Password : <input type="password" maxlength="10" required>
+            <br>
+            Sudah Punya Akun ?<a href="/Formulir/formulirMasuk.html">Login</a>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
